@@ -23,7 +23,7 @@ body{
 }
 @media (max-width:375px){
     .mapa{
-        width: 150%;
+        width: 100%;
     }
 
 }
