@@ -1,0 +1,23 @@
+body{
+    background: black;
+}
+
+.estacionamiento{
+    width:65vw;
+    margin: 10% auto 0 auto;
+    position: relative;
+}
+
+
+.estacionamiento path{
+    fill: rgba(190, 214, 9, 0);
+    stroke: rgba(255, 255, 255, 0);
+    stroke-width: 1px;
+}
+.estacionamiento a :hover{
+    fill: rgba(255, 0, 0, 0.808);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 2px;
+
+    
+}
