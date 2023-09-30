@@ -14,9 +14,27 @@ body{
     stroke-width: 1px;
 }
 .estacionamiento a :hover{
-    fill: rgba(255, 0, 0, 0.808);
+    fill: rgba(247, 255, 14, 0.601);
     stroke: rgb(0, 0, 0);
-    stroke-width: 2px;
-
-    
+    stroke-width: 1px;
+}
+#_1 :hover {
+    fill: rgba(0, 136, 255, 0.601);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px; 
+}
+#_2 :hover {
+    fill: rgba(0, 136, 255, 0.601);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px; 
+}
+#_3 :hover {
+    fill: rgba(0, 136, 255, 0.601);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px; 
+}
+#_4 :hover {
+    fill: rgba(0, 136, 255, 0.601);
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px; 
 }
