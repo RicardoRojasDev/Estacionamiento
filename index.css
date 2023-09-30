@@ -9,8 +9,9 @@ body{
 }
 @media (max-width:375px){
     .mapa{
-        width: 100vw;
+        width: 150%;
     }
+
 }
 
 
