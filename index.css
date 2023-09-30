@@ -1,31 +1,16 @@
 body{
     background: rgb(255, 255, 255);
 }
-.padre{
-    overflow-x: visible;
-  white-space: nowrap;
-}
+
 .mapa{
     width:45vw;
-    margin: 1vh auto 0 auto;;
-    left: 0;
-    position: fixed;
-    overflow: visible;
-    -moz-transform-origin: top left;
-    -ms-transform-origin: top left;
-    -o-transform-origin: top left;
-    -webkit-transform-origin: top left;
-     transform-origin: top left;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-     transition: all .2s ease-in-out
+    margin: 1vh auto 0 auto;
+    overflow: hidden;
 }
 @media (max-width:375px){
     .mapa{
-        width: 100%;
+        width: 130vw;
     }
-
 }
 
 
