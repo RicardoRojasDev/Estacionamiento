@@ -5,6 +5,12 @@ body{
 .mapa{
     width:45vw;
     margin: 1vh auto 0 auto;
+    overflow: hidden;
+}
+@media (max-width:375px){
+    .mapa{
+        width: 100vw;
+    }
 }
 
 
@@ -12,6 +18,7 @@ path{
     fill: rgba(0, 0, 0, 0.268);
     stroke: rgba(0, 0, 0, 0.623);
     stroke-width: 1px;
+    transition: 0.5s;
 }
  
   @media (any-pointer: fine) {
@@ -32,5 +39,6 @@ path{
     path:hover {
       fill: rgba(251, 255, 0, 0.384);
       stroke: #fff;
+  
     }
   }
