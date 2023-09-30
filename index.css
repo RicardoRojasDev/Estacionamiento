@@ -9,7 +9,7 @@ body{
 
 
 .estacionamiento path{
-    fill: rgba(190, 214, 9, 0);
+    fill: rgba(0, 0, 0, 0.268);
     stroke: rgba(0, 0, 0, 0.623);
     stroke-width: 1px;
 }
