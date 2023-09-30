@@ -2,7 +2,7 @@ body{
     background: rgb(255, 255, 255);
 }
 
-.estacionamiento{
+.mapa{
     width:45vw;
     margin: 1vh auto 0 auto;
 }
@@ -13,28 +13,27 @@ path{
     stroke: rgba(0, 0, 0, 0.623);
     stroke-width: 1px;
 }
-.estacionamiento :hover{
-    fill: rgba(247, 255, 14, 0.601);
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px;
-}
-#_1 :hover {
-    fill: rgba(0, 136, 255, 0.601);
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px; 
-}
-#_2 :hover {
-    fill: rgba(0, 136, 255, 0.601);
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px; 
-}
-#_3 :hover {
-    fill: rgba(0, 136, 255, 0.601);
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px; 
-}
-#_4 :hover {
-    fill: rgba(0, 136, 255, 0.601);
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1px; 
-}
+  /*Movil*/
+  @media (any-pointer: fine) {
+    path:hover {
+      fill: rgba(0, 255, 30, 0.69);
+      color: #fff;
+    }
+  }
+ 
+  
+  path:active {
+    fill: rgba(4, 0, 255, 0.555);
+    color: #fff;
+  }
+  
+  /*
+    También podemos mantener el mismo estilo
+    cuándo se usa el efecto hover.
+   */
+  @media (any-hover: hover) {
+    path:hover {
+      fill: rgba(251, 255, 0, 0.605);
+      stroke: #fff;
+    }
+  }
