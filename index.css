@@ -13,17 +13,17 @@ path{
     stroke: rgba(0, 0, 0, 0.623);
     stroke-width: 1px;
 }
-  /*Movil*/
+ 
   @media (any-pointer: fine) {
     path:hover {
-      fill: rgba(0, 255, 30, 0.69);
+      fill: rgba(0, 255, 30, 0.347);
       color: #fff;
     }
   }
  
-  
+   /*Movil*/
   path:active {
-    fill: rgba(4, 0, 255, 0.555);
+    fill: rgba(4, 0, 255, 0.29);
     color: #fff;
   }
   
@@ -33,7 +33,7 @@ path{
    */
   @media (any-hover: hover) {
     path:hover {
-      fill: rgba(251, 255, 0, 0.605);
+      fill: rgba(251, 255, 0, 0.384);
       stroke: #fff;
     }
   }
