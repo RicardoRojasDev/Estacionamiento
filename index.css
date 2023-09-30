@@ -8,12 +8,12 @@ body{
 }
 
 
-.estacionamiento path{
+path{
     fill: rgba(0, 0, 0, 0.268);
     stroke: rgba(0, 0, 0, 0.623);
     stroke-width: 1px;
 }
-.estacionamiento a :hover{
+.estacionamiento :hover{
     fill: rgba(247, 255, 14, 0.601);
     stroke: rgb(0, 0, 0);
     stroke-width: 1px;
