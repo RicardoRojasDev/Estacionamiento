@@ -24,13 +24,10 @@ path{
    /*Movil*/
   path:active {
     fill: rgba(4, 0, 255, 0.29);
-    color: #fff;
+    stroke: #fff;
   }
   
-  /*
-    También podemos mantener el mismo estilo
-    cuándo se usa el efecto hover.
-   */
+  /*Escritorio*/
   @media (any-hover: hover) {
     path:hover {
       fill: rgba(251, 255, 0, 0.384);
