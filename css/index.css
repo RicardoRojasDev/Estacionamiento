@@ -3,7 +3,7 @@ body{
 }
 
 .mapa{
-    width:45vw;
+    width:60vw;
     margin: 1vh auto 0 auto;
     overflow: hidden;
 }
@@ -39,6 +39,8 @@ path{
     path:hover {
       fill: rgba(251, 255, 0, 0.384);
       stroke: #fff;
-  
     }
+    .preferencial :hover {
+      fill: rgba(0, 81, 255, 0.384);
+      stroke: #fff;
   }
